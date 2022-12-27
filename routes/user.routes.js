@@ -6,7 +6,17 @@ const userRouter = express.Router();
 const createError = require('../utils/errors/createError.js');
 const isAuthAdmin = require('../utils/middlewares/authAdmin.middleware.js');
 
-
+userRouter.get('/', async (request, response, next) => {
+    try {
+        const allUsers = await User.find({}, {password: 0}).sort({role: 1});
+        if (allUsers.length === 0) {
+            return response.status(200).json('No hay usuarios registrados');
+        }
+        return response.status(200).json(allUsers)
+    } catch (error) {
+        return next(error)
+    }
+})
 userRouter.post('/register' , async (request, response, next) => {
     const done = (error, user) => {
         if (error) {
