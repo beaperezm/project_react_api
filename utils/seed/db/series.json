@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Futurama",
+    "director": "Matt Groening",
+    "year": 1999,
+    "genre": "Animated",
+    "seasons": 7,
+    "platform": "FOX",
+    "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1672137694/Futurama_wvw5zg.jpg",
+    "synopsis": "En Nueva York, el 31 de diciembre de 1999, un joven fracasado, Fry, que trabaja repartiendo pizzas, es accidentalmente congelado en un laboratorio criogénico. Cuando se despierta han pasado 1000 años, se encuentra en 'Nueva' Nueva York, y descubre que el mundo ha sufrido algunas modificaciones."
+  },
+  {
+    "title": "Game Of Thrones",
+    "director": "David Benioff",
+    "year": 2011,
+    "genre": "Fantasy",
+    "seasons": 8,
+    "platform": "HBO",
+    "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1672137694/Game_Of_Thrones_oratdn.webp",
+    "synopsis": "En un mundo fantástico y en un contexto medieval varias familias, relativas a la nobleza, se disputan el poder para dominar el territorio ficticio de Poniente (Westeros) y tomar el control de los Siete Reinos desde el Trono de Hierro, lugar donde el rey ejerce el poder."
+  },
+  {
+    "title": "Breaking Bad",
+    "director": "Vince Gilligan",
+    "year": 2008,
+    "genre": "Drama",
+    "seasons": 5,
+    "platform": "HBO",
+    "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1672137694/Breaking_Bad_r6hpzt.jpg",
+    "synopsis": "Un profesor de química con cáncer terminal se asocia con un exalumno suyo para fabricar y vender metanfetamina a fin de que su familia no pase apuros económicos."
+  },
+  {
+    "title": "Friends",
+    "director": "Marta Kauffman & David Crane",
+    "year": 1994,
+    "genre": "Comedy",
+    "seasons": 5,
+    "platform": "Netflix",
+    "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1672137694/Friends_hqldxv.webp",
+    "synopsis": "Monica, Rachel, Phoebe, Chandler, Ross y Joey son seis amigos treintañeros que viven en Nueva York. Juntos afrontan con humor las dificultades propias de su edad: líos amorosos, trabajo, familia y su propia convivencia."
+  },
+  {
+    "title": "The Soprano",
+    "director": "David Chase",
+    "year": 1999,
+    "genre": "Drama",
+    "seasons": 6,
+    "platform": "HBO",
+    "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1672137694/Los_Soprano_z7x86b.jpg",
+    "synopsis": "Se trata de una serie que cuenta las vivencias de una familia de la mafia italiana instalada en Nueva Jersey, y las dificultades que surgen tanto en el hogar como en la organización criminal."
+  }
+]
