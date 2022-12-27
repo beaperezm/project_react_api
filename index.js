@@ -13,6 +13,7 @@ const connect = require ('./utils/db/connect.js');
 const path = require('path');
 const cloudinary = require('cloudinary');
 const createError = require ('./utils/errors/createError.js');
+const cors = require ('cors');
 
 connect();
 
@@ -21,6 +22,7 @@ cloudinary.config({
     api_key: process.env.API_KEY,
     api_secret: process.env.API_SECRET
   });
+server.use(cors());
 require('./utils/authentication/passport.js');
 server.use(session({
     secret: process.env.SESSION_SECRET_KEY,
@@ -40,6 +42,10 @@ server.use(passport.session());
 server.use(express.json());
 server.use(express.urlencoded({ extended: false }));
 server.use(express.static(path.join(__dirname, '/tmp/')));
+
+server.get('/', (request, response) => {
+  response.status(200).json('Bienvenido a mi API de Series.')
+})
 
 server.use('/users', userRouter);
 server.use('/series', seriesRouter);
