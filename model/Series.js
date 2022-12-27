@@ -7,7 +7,7 @@ const serieSchema = new mongoose.Schema({
     genre: { type: [String], enum: ['Action', 'Adventure', 'Animated', 'Crime', 'Comedy', 'Drama', 'Fantasy', 'Historical', 'Horror', 'Noir', 'Science-fiction', 'Thriller', 'War', 'Western'] },
     picture: String,
     seasons: {type: Number},
-    platform: {type: String, enum:['HBO', 'Netflix','Disney', 'Amazon', 'A3Player']},
+    platform: {type: String, enum:['HBO', 'Netflix','Disney', 'Amazon', 'A3Player', 'FOX']},
     synopsis: {type: String},
     favoriteCount : Number
 },
