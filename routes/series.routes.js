@@ -41,26 +41,16 @@ seriesRouter.get('/paged', async (request, response, next) => {
         next(error)
     }
 });
-seriesRouter.get("/title/:title", async (request, response, next) => {
-    const title = request.params.title;
+seriesRouter.get('/title/:title', async (request, response, next) => {
     try {
-        const serie = await Serie.find(
-            {
-                title: { $in: title },
-            },
-            {
-                title: 1,
-                picture: 1,
-                _id: 0,
-            }
-        );
-        if (serie) {
-            return response.status(200).json(serie);
-        } else {
-            next(createError("No hay ninguna serie con ese título", 404));
+        const titleSerie = request.params.title;
+        const serie = await Serie.find({ title: titleSerie });
+        if (serie.length === 0) {
+            return next(createError(`No hay ninguna serie con el Título: ${titleSerie}`, 404))
         }
-    } catch (err) {
-        next(err);
+        return response.status(200).json(serie);
+    } catch (error) {
+        next(error)
     }
 });
 seriesRouter.post('/to-cloud',  [upload.single('picture'), uploadToCloud], async (request, response, next) => {
