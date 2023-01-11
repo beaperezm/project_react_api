@@ -29,7 +29,7 @@ seriesRouter.get('/paged', async (request, response, next) => {
         page = parseInt(page, 10);
         const pagedSeries = allSeries.slice(0, 3);
         const maxPage = Math.ceil(allSeries.length / 3);
-        if (page <= 0 || (page - 1) * 5 > allSeries.length - 1) {
+        if (page <= 0 || (page - 1) * 3 > allSeries.length - 1) {
             return response.status(404).json(`La página no existe, la primera página es: 1 y la ultima pagina es : ${maxPage}`);
         }
         response.status(200).json({
