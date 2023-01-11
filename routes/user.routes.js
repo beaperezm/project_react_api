@@ -28,7 +28,7 @@ userRouter.post('/register' , async (request, response, next) => {
                 if (error) {
                     return next(error)
                 }
-                return response.status(200).json(user)
+                return response.status(201).json(user)
             }
         )
     }
