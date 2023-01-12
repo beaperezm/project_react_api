@@ -108,5 +108,115 @@
     "platform": "Netflix",
     "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1672139383/Narcos_l35sqq.png",
     "synopsis": "Narra los esfuerzos de Estados Unidos, a través principalmente de la DEA, y de las autoridades y policía de Colombia, para luchar en la década de los 80 contra el narcotraficante Pablo Escobar y el cartel de Medellín, una de las organizaciones criminales más ricas y despiadadas en la historia de la delincuencia moderna. En la tercera temporada el objetivo de la DEA y la policía colombiana es intentar acabar con el cartel de Cali."
+  },
+  {
+    "id": 11,
+    "title": "Stranger Things",
+    "director": ["Matt & Ross Duffer"],
+    "year": 2016,
+    "genre": ["Science-fiction"],
+    "seasons": 4 ,
+    "platform": "Netflix",
+    "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1673513059/stranger-things_x0gcn3.jpg",
+    "synopsis": "Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña."
+  },
+  {
+    "id": 12,
+    "title": "The Serpent",
+    "director": ["Hans Herbots", "Tom Shankland"],
+    "year": 2021,
+    "genre": ["Crime"],
+    "seasons": 1,
+    "platform": "Netflix",
+    "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1673513792/La_Serpiente_ckth23.jpg",
+    "synopsis": "El despiadado asesino Charles Sobhraj se ensaña con los turistas de la «ruta hippy» del sur de Asia en los años 70. Una historia aterradora basada en hechos reales."
+  },
+  {
+    "id": 13,
+    "title": "Sky Rojo",
+    "director": ["Álex Pina", "Esther Martínez Lobato"],
+    "year": 2021,
+    "genre": ["Drama"],
+    "seasons": 3,
+    "platform": "Netflix",
+    "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1673515428/Sky_Rojo_emvkzj.jpg",
+    "synopsis": "Una serie de fatídicos incidentes en un burdel obliga a tres mujeres perseguidas por su pasado a emprender una huida salvaje para escapar de su proxeneta y sus secuaces."
+  },
+  {
+    "id": 14,
+    "title": "Velvet",
+    "director": ["Gustavo Ron", "Jorge Torregrossa"],
+    "year": 2014,
+    "genre": ["Drama"],
+    "seasons": 4,
+    "platform": "Amazon",
+    "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1673516639/Velvet_vxddxy.jpg",
+    "synopsis": "Narra la historia, llena de glamour y moda, de un grupo de unos personajes, de clase alta, durante la época del franquismo. Está centrada en la catástrofe que supuso la desaparición de la alta costura y la aparición del prêt à porter para la moda española."
+  },
+  {
+    "id": 15,
+    "title": "Mare of Easttown",
+    "director": ["Craig Zobel"],
+    "year": 2021,
+    "genre": ["Crime"],
+    "seasons": 1,
+    "platform": "HBO",
+    "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1673517293/Mare-of-Easttown_asne8b.jpg",
+    "synopsis": "La detective de un pueblo de Pensilvania investiga un crimen mientras su vida se desmorona. La serie explora el lado oscuro de una comunidad muy unida y analiza cómo la familia y las tragedias del pasado pueden definir nuestro presente."
+  },
+  {
+    "id": 16,
+    "title": "The Simpsons",
+    "director": ["Matt Groening"],
+    "year": 1989,
+    "genre": ["Animated"],
+    "seasons": 34,
+    "platform": "Disney Plus+",
+    "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1673525280/the_simpsons_ecdsx9.jpg",
+    "synopsis": "La serie es una sátira hacia la sociedad estadounidense que narra la vida y el día a día de una familia de clase media de ese país (cuyos miembros son Homer, Marge, Bart, Lisa y Maggie Simpson) que vive en un pueblo ficticio llamado Springfield."
+  },
+  {
+    "id": 17,
+    "title": "Rick and Morty",
+    "director": ["Justin Roiland", "Dan Harmon"],
+    "year": 2013,
+    "genre": ["Animated"],
+    "seasons": 6,
+    "platform": "Netflix",
+    "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1673525279/rick_y_morty_gadujt.jpg",
+    "synopsis": "Rick Sánchez es un ejemplo del típico 'científico loco'. Es un genio, pero es irresponsable, alcohólico, egoísta, un poco depresivo y con poca cordura. Rick por diferentes razones termina mudándose a la casa de su hija Beth y en ese momento se encuentra con su nieto Morty; un chico de 14 años de edad, tímido y no muy listo. Al juntarse con su nieto, Rick y Morty viven una variedad de aventuras a lo largo del cosmos y universos paralelos. Y es mediante tantas vivencias y reflexiones que Rick busca que su nieto Morty no acabe como su padre, Jerry, un hombre muy poco exitoso que a pesar de tener buenas intenciones resulta ser bastante inútil en muchas ocasiones y depende mucho de su esposa, Beth, hija de Rick."
+  },
+  {
+    "id": 18,
+    "title": "Sons of Anarchy",
+    "director": ["Kurt Sutter"],
+    "year": 2008,
+    "genre": ["Crime", "Drama"],
+    "seasons": 8,
+    "platform": "FOX",
+    "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1673525279/sons_of_anarchy_smjfuv.jpg",
+    "synopsis": "La serie se centra en la vida del protagonista Jackson Jax Teller (Charlie Hunnam), un joven miembro con rango de vicepresidente que comienza a cuestionarse sus propios actos y los de su club. En la mayor parte de su arco narrativo, Jax puede considerarse como un antihéroe, aunque cada día está más cerca de la oscuridad"
+  },
+  {
+    "id": 19,
+    "title": "Squid Game",
+    "director": ["Hwang Dong-hyuk"],
+    "year": 2021,
+    "genre": ["Crime", "Drama"],
+    "seasons": 1,
+    "platform": "Netflix",
+    "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1673525279/el_juego_del_calamar_tx8qag.jpg",
+    "synopsis": "La serie se centra en un concurso en el que 456 jugadores, todos de diferentes ámbitos de la vida, pero todos profundamente endeudados, juegan a una serie de juegos infantiles con consecuencias fatales si pierden, para tener la oportunidad de ganar 45 600 millones de wones."
+  },
+  {
+    "id": 20,
+    "title": "The Witcher",
+    "director": ["Lauren Schmidt Hissrich"],
+    "year": 2019,
+    "genre": ["Fantasy", "Drama"],
+    "seasons": 2,
+    "platform": "Netflix",
+    "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1673525279/the_witcher_flhjjh.jpg",
+    "synopsis": "Ubicada en un mundo medieval en una masa de tierra conocida como 'el Continente', The Witcher explora la leyenda de Geralt de Rivia y la princesa Ciri, que están unidos el uno al otro por el destino. ."
   }
 ]
