@@ -8,6 +8,7 @@ const userSchema = new mongoose.Schema({
         match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, 'El email no tiene un formato válido']
     },
     password: { type: String, required: true },
+    nickname: String,
     role: { type: String, enum: ["admin", "user"] },
     favoriteSeries: [{ type: mongoose.Types.ObjectId, ref: 'Serie' }]
 },
