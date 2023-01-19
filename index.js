@@ -30,7 +30,6 @@ server.use(session({
     saveUninitialized: false,
     cookie: {
       maxAge: 7200000,
-      secure: true,
       SameSite: 'None'
     },
     store: MongoStore.create({
