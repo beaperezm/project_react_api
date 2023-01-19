@@ -9,6 +9,7 @@ const userSchema = new mongoose.Schema({
     },
     password: { type: String, required: true },
     nickname: String,
+    picture: String,
     role: { type: String, enum: ["admin", "user"] },
     favoriteSeries: [{ type: mongoose.Types.ObjectId, ref: 'Serie' }]
 },
