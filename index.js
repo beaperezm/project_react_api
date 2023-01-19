@@ -31,7 +31,7 @@ server.use(session({
     cookie: {
       maxAge: 7200000,
       secure: true,
-      sameSite: 'None'
+      SameSite: 'None'
     },
     store: MongoStore.create({
       mongoUrl: DB_URL
