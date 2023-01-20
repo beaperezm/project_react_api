@@ -11,7 +11,7 @@ passport.use(
         passwordField: "password",
         passReqToCallback: true
     },
-        async (request, email, password, done) => {
+        async (request, email, password, nickname, done) => {
             try {
                 const previousUser = await User.findOne({ email });
                 if (previousUser) {
@@ -21,7 +21,7 @@ passport.use(
                 const newUser = new User({
                     email,
                     password: encryptedPassword,
-                    role: request.body.role
+                    nickname
                 });
                 const savedUser = await newUser.save();
                 return done(null, savedUser)
