@@ -9,6 +9,7 @@ passport.use(
     new LocalStrategy({
         usernameField: "email",
         passwordField: "password",
+        nicknameField: "nickname",
         passReqToCallback: true
     },
         async (request, email, password, nickname, done) => {
