@@ -9,10 +9,9 @@ passport.use(
     new LocalStrategy({
         usernameField: "email",
         passwordField: "password",
-        nicknameField: "nickname",
         passReqToCallback: true
     },
-        async (request, email, password, nickname, done) => {
+        async (request, email, password, done) => {
             try {
                 const previousUser = await User.findOne({ email });
                 if (previousUser) {
