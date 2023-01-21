@@ -18,6 +18,7 @@ passport.use(
                     return done(createError('El usuario ya existe, logueate'));
                 }
                 const encryptedPassword = await bcrypt.hash(password.toString(), parseInt(10));
+                console.log(request);
                 const newUser = new User({
                     email,
                     password: encryptedPassword,
