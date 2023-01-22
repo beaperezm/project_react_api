@@ -18,7 +18,6 @@ userRouter.get('/', async (request, response, next) => {
     }
 })
 userRouter.post('/register' , async (request, response, next) => {
-    console.log(request);
     const done = (error, user) => {
         if (error) {
             return next(error);
