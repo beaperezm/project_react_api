@@ -10,7 +10,8 @@ const userSchema = new mongoose.Schema({
     password: { type: String, required: true },
     picture: String,
     role: { type: String, enum: ["admin", "user"] },
-    nick: { type: String, enum: ["admin", "user"] },
+    nickname: { type: String, unique: true },
+    age: Number,
     favoriteSeries: [{ type: mongoose.Types.ObjectId, ref: 'Serie' }]
 },
     {
