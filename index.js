@@ -5,7 +5,7 @@ const passport = require('passport');
 const session = require('express-session');
 const MongoStore = require('connect-mongo');
 const PORT = process.env.PORT || 3000;
-const DB_URL = process.env.DB_URL;
+// const DB_URL = process.env.DB_URL;
 const server = express();
 const seriesRouter = require ('./routes/series.routes.js');
 const userRouter = require('./routes/user.routes.js');
@@ -25,14 +25,18 @@ cloudinary.config({
 server.use(cors());
 require('./utils/authentication/passport.js');
 server.use(session({
-    secret: process.env.SESSION_SECRET_KEY,
+    // secret: process.env.SESSION_SECRET_KEY,
+    secret: "Proyecto-React",
     resave: false,
     saveUninitialized: false,
     cookie: {
-      maxAge: 7200000
+      maxAge: 7200000,
+      SameSite: 'None'
     },
     store: MongoStore.create({
-      mongoUrl: DB_URL
+      // mongoUrl: DB_URL
+      mongoUrl: "mongodb+srv://root:LCbZRzNjLtiGmoWB@series-react.zriqlrq.mongodb.net/?retryWrites=true&w=majority"
+
     })
   }));
 
