@@ -21,8 +21,7 @@ passport.use(
                 const newUser = new User({
                     email,
                     password: encryptedPassword,
-                    nick: request.body.nick,
-                    name: request.body.name
+                    role: request.body.role
                 });
                 const savedUser = await newUser.save();
                 return done(null, savedUser)
