@@ -10,6 +10,7 @@ const serieSchema = new mongoose.Schema({
     seasons: {type: Number},
     platform: {type: String, enum:['HBO', 'Netflix','Disney Plus+', 'Amazon', 'A3Player', 'FOX']},
     synopsis: {type: String},
+    isForAdults: Boolean,
     favoriteCount : Number
 },
 {
