@@ -11,7 +11,7 @@ const userSchema = new mongoose.Schema({
     picture: String,
     role: { type: String, enum: ["admin", "user"] },
     nickname: { type: String},
-    age: {type: Number, require: true},
+    age: {type: Number, required: true},
     favoriteSeries: [{ type: mongoose.Types.ObjectId, ref: 'Serie' }]
 },
     {
