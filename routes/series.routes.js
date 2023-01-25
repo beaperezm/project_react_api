@@ -90,18 +90,7 @@ seriesRouter.put('/:id',  async (request, response, next) => {
 seriesRouter.delete('/:id', async (request, response, next) => {
     try {
         const id = request.params.id;
-        // const currentSerie = await Serie.findById(id);
-        // const cinemasHaveMovie = await Serie.find({
-        //     movies: { $in: id }
-        // });
-        // const deleteMovie = cinemasHaveMovie.forEach(async cinema => {
-        //     const cinemaId = cinema._id;
-        //     await Serie.findByIdAndUpdate(
-        //         cinemaId,
-        //         { $pull: { movies: id } },
-        //         { new: true }
-        //     )
-        // });
+       
         const deletedSerie = await Serie.findByIdAndDelete(id);
         if (!deletedSerie) {
             return next(createError(`No se encuentra la serie con el Id: ${id} para eliminarla`, 404))
