@@ -19,7 +19,7 @@ Práctica/Proyecto de Back-end que consiste en la creación de una base de datos
 ## INSTALACION
 1. DESCARGA DEL REPOSITORIO
 ```
-git clone https://github.com/beaperezm/project_api_and_web_series/project-node-api.git
+git clone https://github.com/torresmald/proyecto-react-api.git
 ```
 
 2. INSTALACION DE DEPENDENCIAS UTLIZADAS. 
@@ -113,7 +113,7 @@ En cada una de las colecciones además se ha creado el modelo, que sigue el Sche
 
 ## CONTACTO
 
-- Project Repo: https://github.com/beaperezm/project_api_and_web_series/project-node-api
+- Project Repo: https://github.com/torresmald/proyecto-react-api
 - Email: jonathan.torresmald@gmail.com
 - Email: bpml2001@hotmail.com
 
