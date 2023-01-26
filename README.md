@@ -115,7 +115,7 @@ En cada una de las colecciones además se ha creado el modelo, que sigue el Sche
 
 - Project Repo: https://github.com/torresmald/Node_Proyect
 - Email: jonathan.torresmald@gmail.com
-- Email: BEATRIZ
+- Email: bpml2001@hotmail.com
 
 
 DIVIERTETE USANDOLA......!!
