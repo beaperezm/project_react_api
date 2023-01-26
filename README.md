@@ -2,9 +2,9 @@
 
 ![Image Movies](https://c7.alamy.com/compes/h7gegn/coleccion-de-16…drados-negros-con-esquinas-redondeadas-h7gegn.jpg)
 
- **Proyecto de Base de Datos de películas**     
+ **Proyecto de Base de Datos de series**     
 
-Práctica/Proyecto de Back-end que consiste en la creación de una base de datos de una api de películas, realizada con Node.js y MongoAtlas.
+Práctica/Proyecto de Back-end que consiste en la creación de una base de datos de una api de series, realizada con Node.js y MongoAtlas.
 
 ## HECHO CON
 
@@ -19,7 +19,7 @@ Práctica/Proyecto de Back-end que consiste en la creación de una base de datos
 ## INSTALACION
 1. DESCARGA DEL REPOSITORIO
 ```
-git clone https://github.com/torresmald/proyecto-react-api
+git clone https://github.com/beaperezm/project_api_and_web_series/project-node-api.git
 ```
 
 2. INSTALACION DE DEPENDENCIAS UTLIZADAS. 
@@ -113,7 +113,7 @@ En cada una de las colecciones además se ha creado el modelo, que sigue el Sche
 
 ## CONTACTO
 
-- Project Repo: https://github.com/torresmald/Node_Proyect
+- Project Repo: https://github.com/beaperezm/project_api_and_web_series/project-node-api
 - Email: jonathan.torresmald@gmail.com
 - Email: bpml2001@hotmail.com
 
