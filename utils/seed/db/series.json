@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "title": "Game Of Thrones",
+    "title": "Juego de Tronos",
     "director": ["David Benioff"],
     "year": 2011,
     "genre": ["Fantasy"],
@@ -52,7 +52,7 @@
   },
   {
     "id": 5,
-    "title": "The Soprano",
+    "title": "Los Soprano",
     "director": ["David Chase"],
     "year": 1999,
     "genre": ["Drama"],
@@ -78,7 +78,7 @@
   },
   {
     "id": 7,
-    "title": "Desperate Housewives",
+    "title": "Mujeres Desesperadas",
     "director": ["Marc Cherry"],
     "year": 2004,
     "genre": ["Comedy", "Mistery", "Soap Opera"],
@@ -91,7 +91,7 @@
   },
   {
     "id": 8,
-    "title": "How I meet your mother",
+    "title": "Cómo conocí a vuestra madre",
     "director": ["Pamela Fryman", "Rob Greenberg"],
     "year": 2005,
     "genre": ["Comedy"],
@@ -143,7 +143,7 @@
   },
   {
     "id": 12,
-    "title": "The Serpent",
+    "title": "La Serpiente",
     "director": ["Hans Herbots", "Tom Shankland"],
     "year": 2021,
     "genre": ["Crime"],
@@ -195,7 +195,7 @@
   },
   {
     "id": 16,
-    "title": "The Simpsons",
+    "title": "Los Simpsons",
     "director": ["Matt Groening"],
     "year": 1989,
     "genre": ["Animated"],
@@ -208,7 +208,7 @@
   },
   {
     "id": 17,
-    "title": "Rick and Morty",
+    "title": "Rick y Morty",
     "director": ["Justin Roiland", "Dan Harmon"],
     "year": 2013,
     "genre": ["Animated"],
@@ -217,11 +217,10 @@
     "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1673525279/rick_y_morty_gadujt.jpg",
     "synopsis": "Rick Sánchez es un ejemplo del típico 'científico loco'. Es un genio, pero es irresponsable, alcohólico, egoísta, un poco depresivo y con poca cordura. Rick por diferentes razones termina mudándose a la casa de su hija Beth y en ese momento se encuentra con su nieto Morty; un chico de 14 años de edad, tímido y no muy listo. Al juntarse con su nieto, Rick y Morty viven una variedad de aventuras a lo largo del cosmos y universos paralelos. Y es mediante tantas vivencias y reflexiones que Rick busca que su nieto Morty no acabe como su padre, Jerry, un hombre muy poco exitoso que a pesar de tener buenas intenciones resulta ser bastante inútil en muchas ocasiones y depende mucho de su esposa, Beth, hija de Rick.",
     "isForAdults": false
-
   },
   {
     "id": 18,
-    "title": "Sons of Anarchy",
+    "title": "Hijos de la Anarquía",
     "director": ["Kurt Sutter"],
     "year": 2008,
     "genre": ["Crime", "Drama"],
@@ -230,11 +229,10 @@
     "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1673525279/sons_of_anarchy_smjfuv.jpg",
     "synopsis": "La serie se centra en la vida del protagonista Jackson Jax Teller (Charlie Hunnam), un joven miembro con rango de vicepresidente que comienza a cuestionarse sus propios actos y los de su club. En la mayor parte de su arco narrativo, Jax puede considerarse como un antihéroe, aunque cada día está más cerca de la oscuridad.",
     "isForAdults": true
-
   },
   {
     "id": 19,
-    "title": "Squid Game",
+    "title": "El juego del Calamar",
     "director": ["Hwang Dong-hyuk"],
     "year": 2021,
     "genre": ["Crime", "Drama"],
@@ -256,6 +254,5 @@
     "picture": "https://res.cloudinary.com/dj5hu7p44/image/upload/v1673525279/the_witcher_flhjjh.jpg",
     "synopsis": "Ubicada en un mundo medieval en una masa de tierra conocida como 'el Continente', The Witcher explora la leyenda de Geralt de Rivia y la princesa Ciri, que están unidos el uno al otro por el destino.",
     "isForAdults": true
-
   }
 ]
